@@ -22,3 +22,9 @@ function addPerson(){
 }
 
 document.getElementById("saveBtn").addEventListener("click", addPerson)
+
+/*
+function editPerson(){
+
+}
+*/

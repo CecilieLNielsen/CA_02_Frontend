@@ -1,11 +1,19 @@
+const URL = "????"
+
 
 function addPerson (person){
     const options = makeOptions("POST", person)
     return fetch(URL, options)
 }
 
+function editPerson(person){
+    const options = makeOptions("PUT", person)
+    return fetch(URL + "/" + person.id, options)
+}
+
 const personFacade = {
-    addPerson
+    addPerson,
+    editPerson
 }
 
 function makeOptions (method, body){
