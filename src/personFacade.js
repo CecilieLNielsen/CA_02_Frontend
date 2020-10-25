@@ -1,4 +1,4 @@
-const URL = "????"
+const URL = "www.bycecilie.dk/CA_02/api/person"
 
 
 function addPerson (person){
